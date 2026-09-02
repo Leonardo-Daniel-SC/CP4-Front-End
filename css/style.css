@@ -11,7 +11,39 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: var(--fonte-primaria);
 }
+
+.cabecalho {
+    box-sizing: border-box;
+    background-color: var(--cor-fundo-principal);
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 160px 0;
+
+    h2{
+        color: var(--cor-fundo-alternativo);
+    }
+
+    span {
+        color: var(--cor-botao);
+    }
+
+    .cabecalho__link {
+        display: flex;
+        gap: 20px;
+    }
+
+    a {
+        text-decoration: none;
+        color: var(--cor-fundo-alternativo);
+    }
+
+    a:hover {
+        color: var(--cor-hover);
+    }
+}
+
 
 .principal-1 { grid-area: a; }
 .principal-2 { grid-area: b; }
@@ -24,7 +56,7 @@
     background-color: var(--cor-fundo-principal);
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 400px 280px;
+    grid-template-rows: 450px 230px;
     padding: 70px 160px;
     gap: 30px;
     grid-template-areas:
@@ -36,5 +68,97 @@
         height: 100%;
         object-fit: cover;
         border-radius: 8px;
+    }
+
+    p {
+        font-size: 17px;
+        color: var(--cor-fundo-alternativo);
+        font-family: var(--fonte-primaria);
+        font-weight: 400;
+        margin-bottom: 50px;
+    }
+
+    a {
+        text-decoration: none;
+        font-family: var(--fonte-primaria);
+        font-weight: 600;
+        color: var(--cor-fundo-principal);
+        padding: 20px 40px;
+        background-color: var(--cor-botao);
+        border-radius: 30px;
+    }
+
+    a:hover {
+        background-color: var(--cor-hover);
+        color: var(--cor-fundo-alternativo);
+    }
+}
+
+
+
+.container-avaliacao {
+    box-sizing: border-box;
+    background-color: var(--cor-fundo-principal);
+    display: grid;
+    padding: 70px 140px ;
+
+    h2 {
+        color: var(--cor-fundo-alternativo);
+        font-size: 38px;
+        text-align: end;
+        margin-left: 900px;
+        margin-bottom: 20px;
+    }
+
+    .avaliacao-1 {grid-area: a;}
+    .avaliacao-2 {grid-area: b;}
+    .avaliacao-3 {grid-area: c;}
+
+    .avaliacao-cards {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 50px;
+      align-items: start;
+      grid-template-areas: 
+      "a ."
+      ". b"
+      "c .";
+
+    }
+
+    .card {
+        background-color: var(--cor-fundo-alternativo);
+        padding: 40px;
+        border-radius: 30px;
+        position: relative;
+    }
+
+    .card p {
+        color: var(--cor-fundo-principal);
+        padding-top: 20px;
+    }
+
+    .imagem-perfil {
+        position: absolute;
+        overflow: hidden;
+        border-radius: 50%;
+        top: -30%;
+        transform: translateY(-50%);
+        transform: translatex(240%);
+        width: 90px;
+        height: 90px;
+        border: var(--cor-fundo-principal) solid 5px;
+    }
+
+    .avatar {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .avatar1 {
+        width: 100%;
+        height: 130%;
+        object-fit: cover;
     }
 }
