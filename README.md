@@ -9,7 +9,6 @@ Projeto desenvolvido para o **Checkpoint 04** do curso de **Engenharia de Softwa
   </a>
 </p>
 
-
 ## 📌 Sobre o projeto
 
 A página possui diferentes seções organizadas através de layouts em Grid, incluindo uma área principal com imagens, uma galeria, depoimentos de clientes e um rodapé com informações de contato e redes sociais.
