@@ -2,7 +2,13 @@
 
 Projeto desenvolvido para o **Checkpoint 04** do curso de **Engenharia de Software**, com o objetivo de aplicar conceitos de **HTML5 e CSS3**, principalmente o uso de **CSS Grid Layout** na construção de uma página web responsiva.
 
-[🌐 Acessar o projeto](https://leonardo-daniel-sc.github.io/CP4-Front-End/)
+
+<p align="start">
+  <a href="https://leonardo-daniel-sc.github.io/CP4-Front-End/">
+    <img src="https://img.shields.io/badge/🌐%20Acessar%20Projeto-000000?style=for-the-badge" alt="Acessar Projeto">
+  </a>
+</p>
+
 
 ## 📌 Sobre o projeto
 
